@@ -45,6 +45,7 @@ app.get("/getAllEmp",(req,res)=>{
     })
 });
 
+// helo
 app.get("/checkId/:id",(req,res)=>{
 
     let {id} =req.params;
